@@ -1,40 +1,22 @@
 # Business Requirements - ksf_Training
 
 ## Project Overview
-Training courses and tracking - expands from ksf_HRM certifications. Links to Performance goals.
+ksf_Training manages employee training courses, certifications, and compliance tracking.
 
-## Problem Statement
-- Track completed training
-- Track required certifications
-- Manage course catalog
-- Link training to job descriptions
+## Integration Dependencies
 
-## Scope
+### Provided To
+| Module | Data Provided |
+|--------|---------------|
+| ksf_HRM | Training history, certifications |
+| ksf_Performance | Training for reviews |
+| ksf_Calendar | Training schedule |
 
-### Course Management
-- Course name
-- Description
-- Duration (hours/days)
-- Provider
-- Cost
-- Certification issued (yes/no)
-- Expiry required (yes/no)
+### Consumed From
+| Module | Data Consumed |
+|--------|---------------|
+| ksf_HRM | Employee data |
+| ksf_Calendar | Training events |
 
-### Training Types
-- Mandatory (job requirement)
-- Recommended (development)
-- Optional
-
-### Links
-- ksf_HRM: Certifications (completed)
-- ksf_Performance: Training goal → course
-- ksf_JobDescriptions: Required courses
-- ksf_Recruitment: Preferred courses
-
-### Features
-- Course catalog
-- Enrollment tracking
-- Completion certificates
-- Expiry reminders
-- Cost tracking
-- ROI reporting
+*Document Version: 1.0.0*
+*Last Updated: 2026-05-11*

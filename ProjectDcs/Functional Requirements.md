@@ -1,4 +1,4 @@
-# Architecture - MODULE_NAME
+# Functional Requirements - MODULE_NAME
 
 ## Document Information
 - **Module**: MODULE_NAME
@@ -11,12 +11,7 @@
 
 ## 1. Overview
 
-Module business logic layer with entities, services, and integration points.
-
-### 1.1 Namespace
-```php
-Ksfraser\MODULE_NS\
-```
+Core functionality provided by this module.
 
 ---
 

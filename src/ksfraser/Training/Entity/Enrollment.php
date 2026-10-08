@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\Training\Entity;
+namespace ksfraser\Training\Entity;
 
 class Enrollment
 {

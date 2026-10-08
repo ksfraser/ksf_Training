@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\Tests\Unit\Training\Entity;
+namespace ksfraser\Tests\Unit\Training\Entity;
 
-use Ksfraser\Training\Entity\Enrollment;
+use ksfraser\Training\Entity\Enrollment;
 use PHPUnit\Framework\TestCase;
 
 class EnrollmentTest extends TestCase
@@ -21,7 +21,7 @@ class EnrollmentTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\Training\Entity\Enrollment::setId
+     * @covers ksfraser\Training\Entity\Enrollment::setId
      */
     public function testSetId(): void
     {
@@ -33,7 +33,7 @@ class EnrollmentTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\Training\Entity\Enrollment::setProgress
+     * @covers ksfraser\Training\Entity\Enrollment::setProgress
      */
     public function testSetProgress(): void
     {
@@ -45,7 +45,7 @@ class EnrollmentTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\Training\Entity\Enrollment::isCompleted
+     * @covers ksfraser\Training\Entity\Enrollment::isCompleted
      */
     public function testIsCompleted(): void
     {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\Tests\Unit\Training\Entity;
+namespace ksfraser\Tests\Unit\Training\Entity;
 
-use Ksfraser\Training\Entity\TrainingCourse;
+use ksfraser\Training\Entity\TrainingCourse;
 use PHPUnit\Framework\TestCase;
 
 class TrainingCourseTest extends TestCase
@@ -20,7 +20,7 @@ class TrainingCourseTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\Training\Entity\TrainingCourse::__construct
+     * @covers ksfraser\Training\Entity\TrainingCourse::__construct
      */
     public function testConstructWithData(): void
     {
@@ -37,7 +37,7 @@ class TrainingCourseTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\Training\Entity\TrainingCourse::isPublished
+     * @covers ksfraser\Training\Entity\TrainingCourse::isPublished
      */
     public function testIsPublished(): void
     {

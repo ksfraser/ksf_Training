@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\Tests\Unit\Training\Service;
+namespace ksfraser\Tests\Unit\Training\Service;
 
-use Ksfraser\Training\Entity\TrainingCourse;
-use Ksfraser\Training\Entity\Enrollment;
-use Ksfraser\Training\Service\TrainingService;
+use ksfraser\Training\Entity\TrainingCourse;
+use ksfraser\Training\Entity\Enrollment;
+use ksfraser\Training\Service\TrainingService;
 use PHPUnit\Framework\TestCase;
 
 class TrainingServiceTest extends TestCase
@@ -19,7 +19,7 @@ class TrainingServiceTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\Training\Service\TrainingService::createCourse
+     * @covers ksfraser\Training\Service\TrainingService::createCourse
      */
     public function testCreateCourse(): void
     {
@@ -35,7 +35,7 @@ class TrainingServiceTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\Training\Service\TrainingService::enrollEmployee
+     * @covers ksfraser\Training\Service\TrainingService::enrollEmployee
      */
     public function testEnrollEmployee(): void
     {
@@ -48,7 +48,7 @@ class TrainingServiceTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\Training\Service\TrainingService::startCourse
+     * @covers ksfraser\Training\Service\TrainingService::startCourse
      */
     public function testStartCourse(): void
     {
@@ -61,7 +61,7 @@ class TrainingServiceTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\Training\Service\TrainingService::completeCourse
+     * @covers ksfraser\Training\Service\TrainingService::completeCourse
      */
     public function testCompleteCourse(): void
     {
@@ -75,7 +75,7 @@ class TrainingServiceTest extends TestCase
     }
 
     /**
-     * @covers Ksfraser\Training\Service\TrainingService::updateProgress
+     * @covers ksfraser\Training\Service\TrainingService::updateProgress
      */
     public function testUpdateProgress(): void
     {

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Ksfraser\Training\Service;
+namespace ksfraser\Training\Service;
 
-use Ksfraser\Training\Entity\TrainingCourse;
-use Ksfraser\Training\Entity\Enrollment;
+use ksfraser\Training\Entity\TrainingCourse;
+use ksfraser\Training\Entity\Enrollment;
 
 class TrainingService
 {

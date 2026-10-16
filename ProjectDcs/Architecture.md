@@ -15,7 +15,7 @@ ksf_Training manages employee training programs, course catalogs, enrollment tra
 
 ### 1.1 Namespace
 ```php
-Ksfraser\Training\
+ksfraser\Training\
 ```
 
 ### 1.2 Layer Pattern
